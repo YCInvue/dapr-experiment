@@ -1,0 +1,4 @@
+FROM node:16
+WORKDIR /app
+COPY ./nodeapp2/server2.js server2.js
+CMD ["node", "server2.js"]
